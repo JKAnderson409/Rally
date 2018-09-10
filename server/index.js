@@ -1,8 +1,5 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
-const schema = require('../db/schema.js');
-const models = require('../db/index.js');
-const resolvers = require('../db/resolvers.js');
 const port = process.env.PORT || 8080;
 
 const app = express();
